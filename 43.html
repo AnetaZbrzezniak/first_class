@@ -1,0 +1,18 @@
+<script>
+
+var waga_kg = prompt("Podaj wage w kg");
+var wzrost_m = prompt("Podaj wage w m");
+var bmi = (waga_kg/(wzrost_m*wzrost_m));
+console.log(bmi);
+
+if(bmi>18.5 && bmi<24.9){
+    console.log("waga prawidlowa");
+}
+else if(bmi<18.5){
+    console.log("niedowaga"); 
+}
+else{
+    console.log("nadwaga");
+}
+
+</script>

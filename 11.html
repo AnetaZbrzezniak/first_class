@@ -1,0 +1,29 @@
+<script>
+
+var zm1 = Number(prompt("Podaj liczbe 1"));
+var zm2 = Number(prompt("Podaj liczbe 2"));
+var zm3 = Number(prompt("Podaj liczbe 3"));
+var min = "To jest wartosc minimalna";
+var max = "To jest wartosc maksymalna";
+
+if(zm1 < zm2 && zm1 < zm3){
+    console.log(min + " " + zm1);
+}
+else if(zm2 < zm1 && zm2 < zm3){
+    console.log(min + " " + zm2);
+}
+else if(zm3 < zm1 && zm3 < zm2){
+    console.log(min + " " + zm3);
+}
+
+if(zm1 > zm2 && zm1 > zm3){
+    console.log(max + " " + zm1);
+}
+else if(zm2 > zm1 && zm2 > zm3){
+    console.log(max + " " + zm2);
+}
+else if(zm3 > zm1 && zm3 > zm2){
+    console.log(max + " " + zm3);
+}
+
+</script>
